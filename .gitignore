@@ -1,3 +1,9 @@
+Alamofire-4.5.1/LICENSE
+Alamofire-4.5.1/*.png
+Alamofire-4.5.1/*.md
+Alamofire-4.5.1/Tests
+Alamofire-4.5.1/docs
+Alamofire-4.5.1/Example
 node_modules
 *.log
 *.debug
