@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3F2C71191FC3B97600459DE0 /* parkingattendentTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F2C71181FC3B97600459DE0 /* parkingattendentTests.swift */; };
 		3F32A6F11F9D9B370045C89B /* NewViolationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32A6F01F9D9B370045C89B /* NewViolationViewController.swift */; };
 		3F32A6F31F9D9C3B0045C89B /* Note.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32A6F21F9D9C3B0045C89B /* Note.swift */; };
 		3F32A6F51F9D9C4A0045C89B /* Violation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F32A6F41F9D9C4A0045C89B /* Violation.swift */; };
@@ -29,6 +30,13 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
+		3F2C711B1FC3B97600459DE0 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3FB657991F9018A30073EA31 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3FB657A01F9018A30073EA31;
+			remoteInfo = parkingattendent;
+		};
 		3FDDE9C91F9D501200A95686 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 3FDDE9BE1F9D501200A95686 /* Alamofire.xcodeproj */;
@@ -102,6 +110,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		3F2C71161FC3B97600459DE0 /* parkingattendentTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = parkingattendentTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F2C71181FC3B97600459DE0 /* parkingattendentTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = parkingattendentTests.swift; sourceTree = "<group>"; };
+		3F2C711A1FC3B97600459DE0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3F32A6F01F9D9B370045C89B /* NewViolationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewViolationViewController.swift; sourceTree = "<group>"; };
 		3F32A6F21F9D9C3B0045C89B /* Note.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Note.swift; sourceTree = "<group>"; };
 		3F32A6F41F9D9C4A0045C89B /* Violation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Violation.swift; sourceTree = "<group>"; };
@@ -125,6 +136,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3F2C71131FC3B97600459DE0 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3FB6579E1F9018A30073EA31 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -137,11 +155,21 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3F2C71171FC3B97600459DE0 /* parkingattendentTests */ = {
+			isa = PBXGroup;
+			children = (
+				3F2C71181FC3B97600459DE0 /* parkingattendentTests.swift */,
+				3F2C711A1FC3B97600459DE0 /* Info.plist */,
+			);
+			path = parkingattendentTests;
+			sourceTree = "<group>";
+		};
 		3FB657981F9018A30073EA31 = {
 			isa = PBXGroup;
 			children = (
 				3FDDE9BE1F9D501200A95686 /* Alamofire.xcodeproj */,
 				3FB657A31F9018A30073EA31 /* parkingattendent */,
+				3F2C71171FC3B97600459DE0 /* parkingattendentTests */,
 				3FB657A21F9018A30073EA31 /* Products */,
 				3FE4183B1F9D81D20010DE7C /* Frameworks */,
 			);
@@ -151,6 +179,7 @@
 			isa = PBXGroup;
 			children = (
 				3FB657A11F9018A30073EA31 /* parkingattendent.app */,
+				3F2C71161FC3B97600459DE0 /* parkingattendentTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -204,6 +233,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3F2C71151FC3B97600459DE0 /* parkingattendentTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3F2C71261FC3B97600459DE0 /* Build configuration list for PBXNativeTarget "parkingattendentTests" */;
+			buildPhases = (
+				3F2C71121FC3B97600459DE0 /* Sources */,
+				3F2C71131FC3B97600459DE0 /* Frameworks */,
+				3F2C71141FC3B97600459DE0 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3F2C711C1FC3B97600459DE0 /* PBXTargetDependency */,
+			);
+			name = parkingattendentTests;
+			productName = parkingattendentTests;
+			productReference = 3F2C71161FC3B97600459DE0 /* parkingattendentTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		3FB657A01F9018A30073EA31 /* parkingattendent */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3FB657B51F9018A30073EA31 /* Build configuration list for PBXNativeTarget "parkingattendent" */;
@@ -229,10 +276,16 @@
 		3FB657991F9018A30073EA31 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastSwiftUpdateCheck = 0820;
+				LastSwiftUpdateCheck = 0910;
 				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Sy Le";
 				TargetAttributes = {
+					3F2C71151FC3B97600459DE0 = {
+						CreatedOnToolsVersion = 9.1;
+						DevelopmentTeam = XA6Y87QEWR;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 3FB657A01F9018A30073EA31;
+					};
 					3FB657A01F9018A30073EA31 = {
 						CreatedOnToolsVersion = 8.2.1;
 						DevelopmentTeam = XA6Y87QEWR;
@@ -265,6 +318,7 @@
 			projectRoot = "";
 			targets = (
 				3FB657A01F9018A30073EA31 /* parkingattendent */,
+				3F2C71151FC3B97600459DE0 /* parkingattendentTests */,
 			);
 		};
 /* End PBXProject section */
@@ -322,6 +376,13 @@
 /* End PBXReferenceProxy section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3F2C71141FC3B97600459DE0 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3FB6579F1F9018A30073EA31 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -335,6 +396,14 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3F2C71121FC3B97600459DE0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F2C71191FC3B97600459DE0 /* parkingattendentTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		3FB6579D1F9018A30073EA31 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -358,6 +427,11 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		3F2C711C1FC3B97600459DE0 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3FB657A01F9018A30073EA31 /* parkingattendent */;
+			targetProxy = 3F2C711B1FC3B97600459DE0 /* PBXContainerItemProxy */;
+		};
 		3FDDE9DA1F9D502D00A95686 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Alamofire iOS";
@@ -385,6 +459,62 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3F2C711D1FC3B97600459DE0 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XA6Y87QEWR;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = parkingattendentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.synle.parkingattendentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/parkingattendent.app/parkingattendent";
+			};
+			name = Debug;
+		};
+		3F2C711E1FC3B97600459DE0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = XA6Y87QEWR;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				INFOPLIST_FILE = parkingattendentTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.synle.parkingattendentTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/parkingattendent.app/parkingattendent";
+			};
+			name = Release;
+		};
 		3FB657B31F9018A30073EA31 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -511,6 +641,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3F2C71261FC3B97600459DE0 /* Build configuration list for PBXNativeTarget "parkingattendentTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3F2C711D1FC3B97600459DE0 /* Debug */,
+				3F2C711E1FC3B97600459DE0 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3FB6579C1F9018A30073EA31 /* Build configuration list for PBXProject "parkingattendent" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
