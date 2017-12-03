@@ -39,19 +39,10 @@ There are 2 repos for this project. One of them is the iOS Client to interact wi
 ![alt text](./screenshot/3.png "3")
 
 
-## How to
-### Environment Vars required for the web app...
-```
-export MAIN_DB_HOST='YOUR_MAIN_DB_HOST'
-export MAIN_DB_NAME='YOUR_MAIN_DB_NAME'
-export MAIN_DB_USER='YOUR_MAIN_DB_USER'
-export MAIN_DB_PASSWORD='YOUR_MAIN_DB_PASSWORD'
-```
+## How to set up
+Change the UI host here
+https://github.com/synle/parking-attendant-aid-ios-client/blob/master/parkingattendent/AppUtil.swift#L47
 
-
-### Start the web app
 ```
-git clone https://github.com/synle/parking-attendant-aid-web-app.git
-npm install
-npm start
+let appUrl:String = "http://localhost:8080"
 ```
