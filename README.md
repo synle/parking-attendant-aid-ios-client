@@ -4,7 +4,7 @@ This is an iOS app that allows parking attendant to take notes and give citation
 
 ## Information
 - Student: Sy Le (https://www.linkedin.com/in/syle1021/)
-- University Name: http://www.sjsu.edu/
+- University Name: San Jose State University (http://www.sjsu.edu/)
 - Course: CMPE 297 - Special Topics in Computer/Software Engineering (http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE297.html)
 
 
