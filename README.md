@@ -26,6 +26,11 @@ There are 2 repos for this project. One of them is the iOS Client to interact wi
 - Express
 - Sequelize
 - Passport (for authentication)
+- Microsoft PowerBI (for dashboard UI)
+
+### Chatbot
+- Microsoft LUIS (Language Understanding Intelligent Service)
+- Microsofr BotBuilder
 
 
 ## Screenshots
