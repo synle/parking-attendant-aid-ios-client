@@ -2,8 +2,12 @@
 This is an iOS app that allows parking attendant to take notes and give citation.
 
 
-## Author
-- Sy Le (https://www.linkedin.com/in/syle1021/)
+## Information
+- Student: Sy Le (https://www.linkedin.com/in/syle1021/)
+- University Name: http://www.sjsu.edu/
+- Course: CMPE 297 - Special Topics in Computer/Software Engineering (http://info.sjsu.edu/web-dbgen/catalog/courses/CMPE297.html)
+
+
 
 ## Repos and Components
 There are 2 repos for this project. One of them is the iOS Client to interact with the web app, and the other one is the node js webapp that serves the back end...
